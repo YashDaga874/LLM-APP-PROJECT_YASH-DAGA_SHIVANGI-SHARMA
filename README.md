@@ -30,4 +30,24 @@ The LLM App is a sophisticated document summarization and analysis tool designed
 
 The LLM App represents a transformative solution for document summarization and analysis, offering unparalleled efficiency, accuracy, and business value. By harnessing the power of Llama2 Langchain and advanced NLP techniques, the application empowers users to unlock the full potential of their textual data, driving innovation and productivity across diverse domains.
 
----
+## How to use the application-
+1.Head over to https://replicate.com/account/api-tokens website and create a token for yourself,the free token works just fine for the project.
+
+2.Paste it in the .env file after REPLICATE_API_TOKEN section and paste your api token.
+
+3.Install all the requirements from the requirements.txt section using the terminal in the directory where the app.py is and writing down this piece of code pip install -r requirements.txt
+
+4.After the packages are installed,write down this piece of code - streamlit run app.py
+
+5.The page opens up something like this
+
+<img width="1280" alt="bumrah" src="https://github.com/YashDaga874/LLM-APP-PROJECT_YASH-DAGA_SHIVANGI-SHARMA/assets/118438239/bcc92907-b16f-44ec-b1d4-4bbc6f50fe72">
+
+6. now under browse files put in all the files that you want the llm chatbot to summarize
+
+7.Just go ahead and feel free to ask your questions - 
+
+
+<img width="1280" alt="dsdsd" src="https://github.com/YashDaga874/LLM-APP-PROJECT_YASH-DAGA_SHIVANGI-SHARMA/assets/118438239/de76123c-80ab-4455-877e-d1d04b7b5d6f">
+
+8.You're good to go :)
